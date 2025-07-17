@@ -1,0 +1,33 @@
+# theme = "nord-night"
+# theme = "witchhazel_hyper"
+theme = "autumn"
+
+[editor]
+line-number = "relative"
+cursorline = true
+bufferline = "always"
+color-modes = true
+shell = ["zsh", "-c"]
+soft-wrap.enable = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "block"
+
+[editor.statusline.mode]
+normal = "N"
+insert = "I"
+select = "S"
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = true
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal]
+"S-h" = ":buffer-previous"
+"S-l" = ":buffer-next"
+
